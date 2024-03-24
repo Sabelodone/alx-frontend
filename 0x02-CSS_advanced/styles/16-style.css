@@ -1,0 +1,4 @@
+/* 15. Add universal box-sizing */
+* {
+    box-sizing: border-box;
+}
