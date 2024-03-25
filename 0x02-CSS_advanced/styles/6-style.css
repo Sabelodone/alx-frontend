@@ -1,4 +1,4 @@
-/* Variables for the font-weight */
+/* 6. Variables for the font-weight */
 :root {
     --font-weight-regular: 400;
     --font-weight-bold: 700;
@@ -27,9 +27,23 @@
     font-weight: var(--font-weight-bold); /* Applying font-weight variable */
   }
   
-  /* Integrating Google Fonts into the CSS file */
+  /* 7. Integrating Google Fonts into the CSS file */
+  
   :root {
-    --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
   }
   
