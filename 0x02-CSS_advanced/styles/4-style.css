@@ -4,7 +4,7 @@
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
-    --text-color: var(--color-black);
+    --text-color: var(--color-black); /* Set default text color */
     --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
@@ -19,7 +19,7 @@
   }
   
   a {
-    color: var(--text-color); /* Assuming --text-color is intended to be used here */
+    color: var(--text-color); /* Using the --text-color variable */
   }
   
   .visually-hidden {
@@ -30,4 +30,3 @@
   .section-tagline {
     color: var(--color-primary);
   }  
-
