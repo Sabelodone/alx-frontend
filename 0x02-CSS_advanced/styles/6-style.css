@@ -1,19 +1,35 @@
-/* 6. Variables for the font-weight */
+/* Variables for the font-weight */
 :root {
     --font-weight-regular: 400;
     --font-weight-bold: 700;
-}
-
-body {
-    font-weight: var(--font-weight-regular);
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-weight: var(--font-weight-bold);
-}
-
-/* 7. Integrating Google Fonts into the CSS file */
-:root {
+  }
+  
+  /* Global styles */
+  html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+  }
+  
+  body {
+    color: var(--text-color);
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular); /* Applying font-weight variable */
+  }
+  
+  /* Specific font-weight for headings */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: var(--font-weight-bold); /* Applying font-weight variable */
+  }
+  
+  /* Integrating Google Fonts into the CSS file */
+  :root {
     --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
+  }
+  
